@@ -8,12 +8,14 @@ import {
 import App from './App';
 import Home from './pages/home/Home';
 import { HelmetProvider } from 'react-helmet-async';
+import ErrorPage from './pages/error page/ErrorPage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
