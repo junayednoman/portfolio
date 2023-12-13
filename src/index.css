@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body ::selection{
+    background-color: #424146 !important;
+    color: #fff;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #424146;
+}
+
+.menu-horizontal a:hover {
+    background-color: #406ed81b;
+}
+
+.skillbar {
+    margin-bottom: 7px !important;
+}
+
+.skillbar-title span {
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    color: #424146;
+}
+
+.clpr {
+    color: #406DD8 !important;
+}
+
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    padding: 20px 0 !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    color: #000 !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root button {
+    color: #000 !important;
+}
+
+.css-1t6c9ts {
+    justify-content: center !important;
+    
+}
+
+.techSwiper .swiper-slide {
+    width: 140px !important;
+    border-radius: 22px !important;
+}
+
+.techSwiper .swiper-wrapper {
+    margin-left: 20px;
+    justify-content: center !important;
+}
