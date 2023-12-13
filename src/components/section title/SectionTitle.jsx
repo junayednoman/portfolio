@@ -4,7 +4,7 @@ const SectionTitle = ({ heading, subHeading, mb }) => {
     return (
         <div style={{ marginBottom: mb }}>
             <h4 className="text-3xl mb-2 md:text-[42px] font-bold">{heading}</h4>
-            <p>{subHeading}</p>
+            <p className='text-lg'>{subHeading}</p>
         </div>
     );
 };

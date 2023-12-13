@@ -39,7 +39,9 @@ h6 {
 .clpr {
     color: #406DD8 !important;
 }
-
+.css-1oqqzyl-MuiContainer-root{
+    padding: 0 12px !important;
+}
 .css-hip9hq-MuiPaper-root-MuiAppBar-root {
     padding: 20px 0 !important;
     background-color: white !important;
