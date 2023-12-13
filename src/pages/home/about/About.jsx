@@ -11,7 +11,7 @@ const About = () => {
         <>
             <Technologies></Technologies>
             <Container>
-                <div className="grid grid-cols-5 gap-12 items-center md:py-20 py-4">
+                <div className="grid grid-cols-5 gap-14 items-center md:py-20 py-4">
                     <div className="col-span-2 lg:block hidden">
                         <img className="rounded-[30px]" src={aboutImg} />
                     </div>
