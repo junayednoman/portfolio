@@ -18,9 +18,10 @@ const About = () => {
 
                     <div className="col-span-5 lg:col-span-3 md:text-left text-center">
                         <SectionTitle tex heading='Meet Junayed Noman' subHeading='Front-End Developer | Curious Learner | Constantly Improving 🔥' mb='20px'></SectionTitle>
-                        <p className="">Greetings! I'm Junayed Noman, a junior front-end developer with a passion for creating seamless digital experiences. 💻 My meticulous and intuitive approach enables me to design user interfaces that balance functionality with a touch of creativity.
+                        <p className="">Greetings! I'm Junayed Noman, a front-end developer with a passion for creating seamless digital experiences. 💻 My meticulous and intuitive approach enables me to design user interfaces that balance functionality with a touch of creativity.
                         </p>
-                        <p className="mt-3 mb-5">🛠️ Proficient in front-end technologies, I navigate coding challenges with a commitment to constant improvement. My adaptability ensures a quick grasp of emerging technologies, contributing to efficient project outcomes.</p>
+                        <p className="mt-3 mb-5">Applied expertise in HTML, CSS, and Bootstrap to deliver front-end solutions during a one-year freelance for diverse clients internationally. Collaborated closely with clients to understand and fulfill their unique design requirements. Aiming to contribute to innovative projects at a company making waves.
+                        </p>
                         <a href={resume} download={'resume'}><Btn text='Download Resume'>
                         </Btn></a>
                     </div>
