@@ -17,9 +17,9 @@ const Banner = () => {
                     <img className="" src={bannerImg} />
                 </div>
             </div>
-            <div className="text-center -mt-[120px]">
+            <div className="text-center lg:-mt-[120px] md:mt-0 mt-5">
                 <a href="#techs"><img className="mx-auto scrollDownImg w-[50px] inline-block" src={moveIcon} alt="" /></a><br />
-                <a href="#techs" className='md:mb-24 mb-4 inline-block'>Scroll Down</a>
+                <a href="#techs" className='lg:mb-24 md:mb-10 mb-2 inline-block'>Scroll Down</a>
             </div>
         </Container>
 
