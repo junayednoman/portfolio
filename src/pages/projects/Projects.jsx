@@ -7,7 +7,7 @@ import foodie from '../../assets/foodie.png'
 const Projects = () => {
     return (
         <Container>
-            <div className="text-center md:pt-10 pt-8 md:pb-20 pb-10">
+            <div className="text-center md:pt-10 pt-8 md:pb-20 pb-10" id="projects">
                 <SectionTitle heading='My Latest Works in Code' subHeading='A Showcase of Projects and Passion' mb='30px'></SectionTitle>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-4 items-center">

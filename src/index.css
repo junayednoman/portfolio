@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body ::selection{
+body ::selection {
     background-color: #424146 !important;
     color: #fff;
 }
@@ -39,9 +39,11 @@ h6 {
 .clpr {
     color: #406DD8 !important;
 }
-.css-1oqqzyl-MuiContainer-root{
+
+.css-1oqqzyl-MuiContainer-root {
     padding: 0 12px !important;
 }
+
 .css-hip9hq-MuiPaper-root-MuiAppBar-root {
     padding: 20px 0 !important;
     background-color: white !important;
@@ -55,7 +57,7 @@ h6 {
 
 .css-1t6c9ts {
     justify-content: center !important;
-    
+
 }
 
 .techSwiper .swiper-slide {
@@ -66,4 +68,19 @@ h6 {
 .techSwiper .swiper-wrapper {
     margin-left: 20px;
     justify-content: center !important;
+}
+
+.scrollDownImg {
+    position: relative;
+    animation: animate .9s alternate infinite;
+}
+
+@keyframes animate{
+    from{
+        bottom: 0;
+    }
+
+    to {
+        bottom:20px;
+    }
 }

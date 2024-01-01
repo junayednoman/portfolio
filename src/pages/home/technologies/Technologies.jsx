@@ -28,7 +28,7 @@ const Technologies = () => {
 
 
     return (
-        <div className="py-10">
+        <div className="py-10" id='techs'>            
             <div className='text-center'>
                 <SectionTitle heading='Technologies I am expert in' subHeading='Unlocking Possibilities with Proficiency in Front-End Technologies' mb='45px'></SectionTitle>
             </div>

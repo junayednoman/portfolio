@@ -5,10 +5,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const Navbar = () => {
     const menuItems = <>
         <li><Link to='/'>Home</Link></li>
-        <li><a to='/about'>About</a></li>
-        <li><Link to='/portfolio'>Portfolio</Link></li>
-        <li><Link to='/Blogs'>Blogs</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>
     return (
         <Container>
