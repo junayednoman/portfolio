@@ -75,12 +75,17 @@ h6 {
     animation: animate .9s alternate infinite;
 }
 
-@keyframes animate{
-    from{
+@keyframes animate {
+    from {
         bottom: 0;
     }
 
     to {
-        bottom:20px;
+        bottom: 20px;
     }
+}
+
+.headerMenuDropdown li a {
+    display: inline-block;
+    text-align: right !important;
 }
