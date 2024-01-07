@@ -1,7 +1,6 @@
 import { useState } from "react"
 import PropTypes from "prop-types";
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import { BorderColor } from "@mui/icons-material";
 
 const TechItem = ({ techItem }) => {
 
@@ -15,10 +14,10 @@ const TechItem = ({ techItem }) => {
         setTooltipOpen(false)
     }
     return (
-        <div onMouseLeave={removeTooltip} onMouseEnter={() => handleTooltip(techItem.tooltipText)} className={`cursor-pointer p-5 min-h-[140px] rounded-[20px] text-center space-y-2 relative w-[140px] border-2 border-white duration-300`} style={{ background: techItem.bgColor, borderColor: tooltipOpen && techItem.borderCL}}>
+        <div onMouseLeave={removeTooltip} onMouseEnter={() => handleTooltip(techItem.tooltipText)} className={`cursor-pointer p-5 min-h-[140px] rounded-[20px] text-center space-y-2 relative w-[150px] border-2 border-white duration-300`} style={{ background: techItem.bgColor, borderColor: tooltipOpen && techItem.borderCL}}>
             <img className='max-w-[70px] max-h-[70px] mx-auto' src={techItem.icon} alt="" />
             <h4 className='text-white text-sm font-semibold'>{techItem.name}</h4>
-            <div className={`${tooltipOpen ? 'opacity-100 ' : 'opacity-0 pointer-events-none'} -left-[10%] duration-300 absolute top-[105%] p-3 rounded-xl text-xs w-[180px] text-white`} style={{ backgroundColor: techItem.bgColor }}>
+            <div className={`${tooltipOpen ? 'opacity-100 ' : 'opacity-0 pointer-events-none'} -left-[10%] duration-300 absolute top-[105%] p-3 rounded-xl text-xs w-[200px] text-white`} style={{ backgroundColor: techItem.bgColor }}>
                 <PlayArrowIcon style={{ color: techItem.bgColor }} className="-rotate-90 absolute -top-[15px] left-[40%]"></PlayArrowIcon>
                 {tooltipText}
             </div>

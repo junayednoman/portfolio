@@ -1,7 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import htmlIcon from '../../../assets/html-5.png'
-import cssIcon from '../../../assets/css-3.png'
 import jsIcon from '../../../assets/js.png'
 import tailwindIcon from '../../../assets/Tailwind CSS.png'
 import nodeIcon from '../../../assets/node-js.png'
@@ -13,8 +11,6 @@ import TechItem from './tech item/TechItem';
 
 const Technologies = () => {
     const techItems = [
-        { borderCL: "#FC490B", icon: htmlIcon, name: "HTML", bgColor: "#4c1603", tooltipText: 'All Major HTML and HTML5 elements. Git and github hosting, etc.' },
-        { borderCL: "#2196F3", icon: cssIcon, name: "CSS", bgColor: "#0a2d49", tooltipText: 'All Major CSS and CSS3 style rules. Flex, grid, media query, Responsive websites, etc.' },
         { borderCL: "#38BDF9", icon: tailwindIcon, name: "Tailwind", bgColor: "#11394b", tooltipText: 'Tailwind: Utility-first CSS framework and Daisy ui: The most popular component library for Tailwind CSS ' },
         { borderCL: "#FFDF00", icon: jsIcon, name: "JavaScript", bgColor: "#4c4300", tooltipText: 'JavaScript With Core Concepts. JS For DOM Manipulations, Event Handling To Make Websites Interactive. Load Data Using API. ES6 Features, Dev Tool, Browser API, Etc.' },
         { borderCL: "#00D8FF", icon: reactIcon, name: "ReactJS", bgColor: "#002b33", tooltipText: 'React Core Concepts, Most Popular Hooks, Custom Hooks, Virtual DOM, Context API, React Router, Recharts, Payment Gateway, Etc.' },
@@ -28,7 +24,7 @@ const Technologies = () => {
 
 
     return (
-        <div className="py-10" id='techs'>            
+        <div className="py-10" id='techs'>
             <div className='text-center'>
                 <SectionTitle heading='Technologies I am expert in' subHeading='Unlocking Possibilities with Proficiency in Front-End Technologies' mb='45px'></SectionTitle>
             </div>

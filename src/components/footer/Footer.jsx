@@ -14,7 +14,7 @@ const Footer = () => {
                     </aside>
                     <div className="flex gap-3 w-full justify-center">
                         <a href="#" target="_blank" className="hover:scale-110 w-[32px] duration-200"><img className="w-full" src={linkedinImg} alt="" /></a>
-                        <a href="#" target="_blank" className="hover:scale-110 w-[32px] duration-200"><img className="w-full" src={githubImg} alt="" /></a>
+                        <a href="https://github.com/junayednoman" target="_blank" className="hover:scale-110 w-[32px] duration-200"><img className="w-full" src={githubImg} alt="" /></a>
                         <a href="https://twitter.com/junayednoman" target="_blank" className="hover:scale-110 w-[32px] duration-200"><img className="w-full" src={twitterImg} alt="" /></a>
                         <a href="https://www.instagram.com/junayednoman.me/" target="_blank" className="hover:scale-110 w-[32px] duration-200"><img className="w-full" src={InstagramImg} alt="" /></a>
                     </div>
