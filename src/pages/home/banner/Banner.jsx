@@ -2,7 +2,6 @@ import { Container } from "@mui/material";
 import bannerImg from '../../../assets/banner bg.png'
 import Btn from "../../../components/btn/Btn";
 import moveIcon from "../../../assets/move.png"
-import { motion } from "framer-motion";
 
 const Banner = () => {
     return (

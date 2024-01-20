@@ -1,6 +1,6 @@
 import { Container } from "@mui/material";
 import Btn from "../../../components/btn/Btn";
-import resume from '../../../assets/Junayed Noman.pdf'
+import certificate from "../../../assets/Programming Hero certificate.pdf"
 
 const Cta = () => {
     return (
@@ -11,7 +11,7 @@ const Cta = () => {
                     <p className="text-white mt-3 md:text-base text-[15px]">Applied expertise in Front-end to deliver top-notch solutions during a one-year freelance for diverse clients over the world. Collaborated closely with clients to understand and fulfill their unique design requirements. Aiming to contribute to innovative projects at a company making waves.</p>
                 </div>
                 <div className="lg:w-[60%] w-full lg:text-right md:text-left text-center">
-                    <a href={resume} download={'resume'}><Btn text='Download My Resume'>
+                    <a href={certificate} download={'certificate of Junayed Noman'}><Btn text='Download Certificate'>
                     </Btn></a>
                 </div>
             </div>
