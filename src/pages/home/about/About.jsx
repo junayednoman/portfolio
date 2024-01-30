@@ -22,7 +22,7 @@ const About = () => {
                         </p>
                         <p className="mt-3 mb-5">Applied expertise in Front-end to deliver top-notch solutions during a one-year freelance for diverse clients over the world. Collaborated closely with clients to understand and fulfill their unique design requirements. Aiming to contribute to innovative projects at a company making waves.
                         </p>
-                        <a href={resume} download={'resume'}><Btn text='Download Resume'>
+                        <a href={resume} download={'resume of Junayed Noaman'}><Btn text='Download Resume'>
                         </Btn></a>
                     </div>
 
