@@ -23,7 +23,7 @@ const Navbar = () => {
                                 {menuItems}
                             </ul>
                         </div>
-                        <Link to={'/'} className="text-2xl md:text-3xl text-[#406DD8] font-extrabold"><h2 className="text-[#3E6CD7]">Junayed <span className="">Noman</span></h2></Link>
+                        <Link to={'/'} className="text-2xl md:text-3xl text-[#08436D] font-extrabold"><h2 className="text-[#08436D]">Junayed <span className="">Noman</span></h2></Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal">
@@ -31,7 +31,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end md:block hidden text-right">
-                        <a target="_blank" href="https://github.com/junayednoman" className="py-3 px-7 flex ml-auto items-center w-[120px] justify-center gap-2 hover:bg-[#3357ad] duration-200 text-white bg-[#406DD8] rounded-xl">Github <GitHubIcon></GitHubIcon></a>
+                        <a target="_blank" href="https://github.com/junayednoman" className="py-3 px-7 flex ml-auto items-center w-[120px] justify-center gap-2 hover:bg-[#3357ad] duration-200 text-white bg-[#08436D] rounded-xl">Github <GitHubIcon></GitHubIcon></a>
                     </div>
                 </div>
             </div>

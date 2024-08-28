@@ -39,7 +39,7 @@ const Contact = () => {
                             <textarea className="input h-[100px] input-bordered" required />
                         </div>
                         <div className="form-control mt-3">
-                            <button className="btn hover:bg-[#3357ad] duration-200 text-white bg-[#406DD8] rounded-xl">Send</button>
+                            <button className="btn hover:bg-[#063657] duration-200 text-white bg-[#08436D] rounded-xl">Send</button>
                         </div>
                     </form>
                 </div>

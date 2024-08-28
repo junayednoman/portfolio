@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Btn = ({ text }) => {
     return (
-        <button className="py-3 px-7 hover:bg-[#3357ad] duration-200 text-white bg-[#406DD8] rounded-xl">
+        <button className="py-3 px-7 hover:bg-[#063657] duration-200 text-white bg-[#08436D] rounded-xl">
             {text}
         </button>
     );
